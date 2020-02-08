@@ -1,0 +1,111 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+	color: #201b2d;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+div, a, p, form, span, ul, li {
+	box-sizing: border-box;
+} 
+
+.header {
+	padding-top: 60px;
+	color: #fff;
+	background: rgba(78,189,254,1);
+	background: -moz-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78,189,254,1)), color-stop(100%, rgba(55,144,217,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: linear-gradient(135deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebdfe', endColorstr='#3790d9', GradientType=1 );
+}
+
+.suitcase {
+	width: 600px;
+	margin-bottom: 90px;
+
+}
+
+
+.container {
+	width: 1171px;
+	margin: 0 auto;
+}
+.offer {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	margin-top : 60px;
+}
+
+.wrapper {
+	margin-top: 80px;
+	padding-top: 60px;
+	width: 560px;
+
+}
+p {
+	line-height: 1.6em;
+}
+
+.title {
+	line-height: 1.4em;
+	font-weight: 700;
+}
+
+.title span {
+	line-height: 1.4em;
+	font-size: 50px;
+}
+
+.text {
+	width: 410px;
+}
+
+.btn {
+	color: #2e2a1b;
+	width: 220px;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	font-family: 'Montserrat', sans-serif;
+	padding: 10px;
+	background: #ffd429;
+	transition: all 0.5s ease;
+	margin-top: 30px;
+}
+
+.btn:hover {
+	background: #e6bf25;
+}
+
+.blog {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.opportunitys {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+h2.title {
+	text-align: center;
+}
+
+h3.title {
+	text-align: center;
+}
